@@ -1,0 +1,382 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Watches an E-Commerce online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dorsa' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/jquery.easydropdown.js"></script>
+<script src="js/simpleCart.min.js"> </script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ <link rel="stylesheet" href="/resources/demos/style.css">
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<style>
+
+.column {
+		float: left;
+		width: 100%;
+		padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+		opacity: 0.8;
+		cursor: pointer;
+}
+
+.column img:hover {
+		opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+</style>
+
+</head>
+<body>
+	<div class="banner">
+   	  <div class="container">
+   	  	<div class="header_top">
+   	  	   <div class="header_top_left">
+	  	      <div class="box_11"><a href="checkout.html">
+		      <h4><p>Cart: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</p><img src="images/bag.png" alt=""/><div class="clearfix"> </div></h4>
+		      </a></div>
+	          <p class="empty"><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+	          <div class="clearfix"> </div>
+	       </div>
+           <div class="header_top_right">
+		  	 <div class="lang_list">
+				<select tabindex="4" class="dropdown">
+					<option value="" class="label" value="">$ Us</option>
+					<option value="1">Dollar</option>
+					<option value="2">Euro</option>
+				</select>
+			 </div>
+			 <ul class="header_user_info">
+			  <a class="login" href="login.html">
+				<i class="user"> </i>
+				<li class="user_desc">My Account</li>
+			  </a>
+			  <div class="clearfix"> </div>
+		     </ul>
+		    <!-- start search-->
+				<!--<div class="search-box">
+				   <div id="sb-search" class="sb-search">
+					  <form>
+						 <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+						 <input class="sb-search-submit" type="submit" value="">
+						 <span class="sb-icon-search"> </span>
+					  </form>
+				    </div>
+				 </div>-->
+
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products" title="Type in a name">
+
+<font color="white">
+<p hidden><ul id="myUL">
+  <li style="display:none;"><a href="file:///C:/Users/Jianu%20Laura/Desktop/Teme&co/Anul%20IV/IR/web/single.html">ELEGANT SHOES</a></li>
+  <li style="display:none;"><a href="#">CLASSIC WATCH</a></li>
+  <li style="display:none;"><a href="#">BLACK SPORT WATCH</a></li>
+  <li style="display:none;"><a href="file:///C:/Users/Jianu%20Laura/Desktop/Teme&co/Anul%20IV/IR/web/single1.html">SUEDE BOOTS</a></li>
+  <li style="display:none;"><a href="#">RED BAG WITH CHARM</a></li>
+</ul></p></font>
+
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+
+
+  <label for="default">Choose a product:</label>
+  <input type="text" id="default" list="languages" placeholder="">
+
+  <datalist id="languages">
+    <option value="ELEGANT SHOES">
+    <option value="CLASSIC WATCH">
+    <option value="BLACK SPORT WATCH">
+    <option value="BLACK PURSE">
+    <option value="SUEDE BOOTS">
+    <option value="RED BAG WITH CHARM">
+
+  </datalist>
+
+
+  <label for="ajax"></label>
+  <input type="text" id="ajax" list="json-datalist" placeholder="e.g. datalist">
+  <datalist id="json-datalist"></datalist>
+<script>
+	// Get the <datalist> and <input> elements.
+var dataList = document.getElementById('json-datalist');
+var input = document.getElementById('ajax');
+
+// Create a new XMLHttpRequest.
+var request = new XMLHttpRequest();
+
+// Handle state changes for the request.
+request.onreadystatechange = function(response) {
+  if (request.readyState === 4) {
+    if (request.status === 200) {
+      // Parse the JSON
+      var jsonOptions = JSON.parse(request.responseText);
+
+      // Loop over the JSON array.
+      jsonOptions.forEach(function(item) {
+        // Create a new <option> element.
+        var option = document.createElement('option');
+        // Set the value using the item in the JSON array.
+        option.value = item;
+        // Add the <option> element to the <datalist>.
+        dataList.appendChild(option);
+      });
+
+      // Update the placeholder text.
+    //  input.placeholder = "e.g. datalist";
+    } else {
+      // An error occured :(
+      //input.placeholder = "Couldn't load datalist options :(";
+    }
+  }
+};
+
+
+input.placeholder = "Loading options...";
+
+request.open('GET', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/html-elements.json', true);
+request.send();</script>
+
+
+
+				 <!----search-scripts---->
+				 <script src="js/classie1.js"></script>
+				 <script src="js/uisearch.js"></script>
+				   <script>
+					 new UISearch( document.getElementById( 'sb-search' ) );
+				   </script>
+					<!----//search-scripts---->
+		            <div class="clearfix"> </div>
+			 </div>
+		     <div class="clearfix"> </div>
+	  </div>
+	  <div class="header_bottom">
+	   <div class="logo">
+		  <h1><a href="index.html"><span class="m_1"> "A" Women Accessories</span></a></h1>
+	   </div>
+   	   <div class="menu">
+	     <ul class="megamenu skyblue">
+			<li><a class="color2" href="#"></a>
+				<div class="megapanel">
+					<div class="row">
+
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Women</h4>
+								<ul>
+									<li><a href="men.html">Watches</a></li>
+									<li><a href="men.html">Handbags</a></li>
+									<li><a href="men.html">Shoes</a></li>
+									<li><a href="men.html">Jewelry</a></li>
+								</ul>
+							</div>
+						</div>
+
+					  </div>
+					</div>
+			</li>
+			<li><a class="color4" href="#">women</a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+
+							</div>
+						</div>
+						<div class="col1">
+							<div class="h_nav">
+								<h4>Women</h4>
+								<ul>
+									<li><a href="men.html">Watches</a></li>
+									<li><a href="men.html">Handbags</a></li>
+									<li><a href="men.html">Shoes</a></li>
+									<li><a href="men.html">Jewelry</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col2">
+							<div class="h_nav">
+
+				<li><a class="color7" href="https://www.pinterest.com/explore/accessories/">News</a></li>
+				<div class="clearfix"> </div>
+			</ul>
+			</div>
+	        <div class="clearfix"> </div>
+	        </div>
+	    </div>
+   </div>
+   <div class="main">
+    <div class="container">
+    	<ul class="content-home">
+
+
+           <div class="clearfix"> </div>
+       </ul>
+    </div>
+    <div class="middle_content">
+    	<div class="container">
+    		<h2>Welcome</h2>
+    		<p>OUR PURPOSE IS TO EMPOWER WOMEN TO LEAD BOLD AND FULL LIVES. WE BELIEVE THAT IF YOU LOOK GOOD, YOU FEEL GOOD. AND WHEN YOU FEEL GOOD YOU CAN DO GOOD FOR OTHERS AROUND YOU. CENTS OF STYLE BRINGS YOU A WIDE RANGE OF TRENDY SHOES, BEAUTIFUL SCARVES, AND STATEMENT-MAKING JEWELRY, ALL AT AFFORDABLE PRICES TO MAKE THEM ACCESSIBLE TO YOU.</p>
+    	</div>
+    </div>
+   	<div class="content_middle_bottom">
+   		<div class="header-left" id="home">
+		      <section>
+				<ul class="lb-album" >
+					<li>
+
+							<img src="images/h.jpg"  class="img-responsive" alt="image01"/>
+
+					<li>
+
+							<img src="images/q.jpg"  class="img-responsive" alt="image06"/>
+
+
+						<li>
+							<img src="images/a.jpg"  class="img-responsive" alt="image06"/>
+
+							<li>
+								<img src="images/pn.jpg"  class="img-responsive" alt="image06"/>
+
+								<li>
+									<img src="images/as.jpg"  class="img-responsive" alt="image06"/>
+
+									<!--<li>
+										<img src="images/f.jpg"  class="img-responsive" alt="image06"/>
+
+										<li>
+											<img src="images/f.jpg"  class="img-responsive" alt="image06"/>-->
+
+
+
+
+
+							<div>
+
+							</div>
+
+						</div>
+					</li>
+
+<div align="center">
+								<li>
+									<img src="images/cr.jpg"  class="img-responsive" alt="image06"/>
+</div>
+
+
+
+						</a>
+
+							<div>
+
+							</div>
+
+						</div>
+					</li>
+					<li>
+
+
+
+
+
+
+
+
+							<div>
+
+							</div>
+
+						</div>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+			</section>
+		</div>
+	  </div>
+   </div>
+   <div class="footer">
+   	 <div class="container">
+   	 	<div class="newsletter">
+			<h3>Newsletter</h3>
+			<p>If you like us, please subscribe !</p>
+			<form>
+			  <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+			  <input type="submit" value="SUBSCRIBE">
+			</form>
+		</div>
+   		<div class="cssmenu">
+		   <ul>
+			<li class="active"><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">About</a></li>
+
+		  </ul>
+		</div>
+		<ul class="social">
+			<li><a href=""> <i class="instagram"> </i> </a></li>
+			<li><a href=""><i class="fb"> </i> </a></li>
+			<li><a href=""><i class="tw"> </i> </a></li>
+	    </ul>
+	    <div class="clearfix"></div>
+	    <div class="copy">
+           <p> &copy; 2015 Watches. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+	    </div>
+   	</div>
+   </div>
+</body>
+</html>
